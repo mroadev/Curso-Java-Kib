@@ -22,6 +22,9 @@ int Extraer(int puntero);
 int Tamano();
 
 
-docs/oracle.com/javase/8/
+https://docs.oracle.com/javase/8/docs/index.html
+https://docs.oracle.com/javase/8/docs/api/index.html
+
+
 
 
