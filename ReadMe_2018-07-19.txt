@@ -1,0 +1,27 @@
+ESTRUCTURAS DE DATOS
+
+Pila: LiFo (Ultimo en entrar primero en salir)
+Cola: FiFo (Primero en entrar primero en salir)
+
+Clase: Pila (Limite de 10 casillas)
+Metodos:
+-Agregar
+-Quitar
+-Mostrar Pila
+-Ordenar
+
+
+Clase: Cola
+Metodos:
+void Agregar(int valor);
+int Quitar();
+void Mostrar();
+void Borrar();
+void Ordenar();
+int Extraer(int puntero);
+int Tamano();
+
+
+docs/oracle.com/javase/8/
+
+
