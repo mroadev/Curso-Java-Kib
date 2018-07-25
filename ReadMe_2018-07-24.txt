@@ -1,0 +1,42 @@
+
+Java Swing (GUI)
+JFrame
+Ejemplo Ventana de Login
+
+MAVEN
+cmd
+cd C:\PROYECTOS_JAVA
+git clone https://www.github.com/alvarockcl/mysql_java.git
+
+revisar archivo pom.xml
+<packaging>jar</packaging> >indica extencion del compilado
+
+Para Buscar Librerias
+Apache Releases Repository
+https://mvnrepository.com/repos/apache-releases
+
+Buscar Dependencias
+Apache Commons IO
+
+Buscar Dependencias
+mysql 
+MySQL Connector/J
+https://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.37
+
+mongo
+MongoDB Java Driver
+
+
+Abrir Servicio MySQL
+net start mysql
+
+create table usuario(
+	usuario varchar(50),
+    clave varchar(50),
+    nombre varchar(100)
+);
+
+select * from usuario;
+insert into usuario values ('admin','1234','Administrador');
+insert into usuario values ('alumno','5678','Alumno de la clase');
+insert into usuario values ('profe','1928','Profesor de la clase');
